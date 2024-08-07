@@ -139,7 +139,7 @@ header .container ul {
   header .container ul {
     display: none;
   }
-  header .container nav .menu:hover ul {
+  header .container nav .menu:hover + ul {
     display: flex;
     flex-direction: column;
     background-color: rgb(0 0 0 / 50%);
